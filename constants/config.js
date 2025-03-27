@@ -1,11 +1,9 @@
 const corsOptions = {
-  origin: [
-    process.env.CLIENT_URL,
-  ],
+  origin: [process.env.CLIENT_URL],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 };
 
-const CHATTU_TOKEN = "chattu-token";
+const CHAT_TOKEN = "chat-token";
 
-export { corsOptions, CHATTU_TOKEN };
+export { corsOptions, CHAT_TOKEN };
